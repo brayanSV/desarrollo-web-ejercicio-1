@@ -1,0 +1,234 @@
+body {
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24282b;
+    color: #fff;
+    padding: 30px 0 0 0;
+    min-height: 70px;
+    border-bottom: 5px solid #1293d4;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #marca {
+    float: left;    
+}
+
+header #marca h1 {
+    margin: 0;    
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .resaltado, header .actual a {
+    color: #1293da; 
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #CCC;
+    font-weight: bold;
+}
+
+.textfield {
+    width: 300px;
+}
+
+article {
+    padding: 25px;
+    width: 45%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.divider-line {
+    border-right: 1px solid #000;
+}
+
+article img {
+    width: 250px;
+}
+
+section .content .content-curriculum {
+    width: 804px;
+    margin: 0px auto;
+    background: #FFF;
+    height: 100vh;
+}
+
+section .content .content-curriculum article {
+    padding: 15px;    
+    display: inline-block;
+    font: 12px Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+section .content .content-curriculum .contact {
+    width: 270px;
+    color: #fff;
+    background-color: #1E2736;
+    text-align: center;
+}
+
+section .content .content-curriculum .contact img {
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+section .content .content-curriculum .contact  {
+    color: #FFF;
+    font-weight: bold;
+}
+
+section .content .content-curriculum .contact .info-user img  {
+    width: 20px;
+}
+
+section .content .content-curriculum .contact .info-user a  {
+    text-decoration: none;
+}
+
+section .content .content-curriculum .contact .info-user table  {
+    margin: 0 auto;
+}
+
+section .content .content-curriculum .contact .info-user td  {
+    text-align: left;
+}
+
+section .content .content-curriculum .contact .info-user td span  {
+    color: #fff;    
+    margin-left: 5px;
+}
+
+section .content .content-curriculum .profile {
+    width: 470px;   
+    overflow-y: auto;
+}
+
+section .content .content-curriculum .profile H1 {
+    color: #1E2736; 
+    font: 30px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+
+section .content .content-curriculum .profile H3 {
+    color: #1E2736; 
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;    
+}
+
+section .content .content-curriculum .profile H3 {
+    color: #1E2736; 
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;    
+}
+
+.info-profile, .info-work-experience, .info-education H4 {
+    margin: 0px;    
+}
+
+.info-profile, .info-work-experience, .info-education {
+    margin-top: 50px;
+    color: #1E2736;
+}
+
+.info-profile p {
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+.info-work-experience p {
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+.info-work-experience li {
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+.info-work-experience strong {
+    margin-right: 15px;
+}
+
+.info-education {
+    margin-bottom: 100px;
+}
+
+.info-education p {    
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+.info-education li {
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+.info-education strong {
+    margin-right: 15px;
+}
+
+.info-profile .line-middle {
+    height: 1px;
+    width: 400px;
+    background: #1E2736;
+}
+
+.info-work-experience .line-middle {
+    height: 1px;
+    width: 300px;
+    background: #1E2736;
+}
+
+.info-education .line-middle {
+    height: 1px;
+    width: 370px;
+    background: #1E2736;
+}
+
+section .content .content-curriculum .profile img {
+    width: 24px;
+    text-align: right;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1293d4;
+    text-align: center;
+}

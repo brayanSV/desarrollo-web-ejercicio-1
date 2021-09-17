@@ -1,0 +1,85 @@
+body {
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 25px 0;
+    margin: 0px;
+    background: #fff;
+}
+
+header, footer {
+    max-width: 670px;
+    background: #1A2430;
+    padding: 25px 0 0 0;
+    margin: 0 auto;
+}
+
+header table {
+    border-spacing: 0px;
+}
+
+header table tbody tr td {
+    border: 0px;
+    padding: 0px;
+}
+
+header img {
+    width: 250px;
+    vertical-align: bottom;
+}
+
+header p {
+    vertical-align: middle;
+    color: #fff;
+    margin-left: 25px;
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+header p strong {
+    vertical-align: middle;
+    color: #fff;
+    font: 25px Arial, Helvetica, sans-serif;
+}
+
+section {
+    max-width: 670px;
+    background: #fff;
+    margin: 0px auto;
+}
+
+section table {
+    border-spacing: 0px;
+}
+
+section article {
+    display: inline-block;
+}
+
+section #ability {
+    padding: 25px;
+    background: #C9D3CB;
+    min-width: 200px;
+}
+
+section #history {
+    padding: 25px;
+    min-width: 366px;
+}
+
+section .content .content-curriculum {
+    width: 670px;
+    margin: 0px auto;
+}
+
+section .content .content-curriculum article {
+    width: 100% !important;
+    padding: 15px;    
+}
+
+section .content .content-curriculum article .contact {
+    width: 270px !important;
+    padding: 15px;    
+}
+
+
+footer {
+    height: 40px;
+}
